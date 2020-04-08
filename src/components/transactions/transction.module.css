@@ -1,0 +1,30 @@
+.thead {
+  background-color: rgb(71, 58, 189);
+  color: white;
+  text-transform: uppercase;
+}
+.transactionHistory {
+  border-collapse: collapse;
+  width: 500px;
+  box-shadow: black 0 0 10px;
+}
+.tr:nth-of-type(2n + 1) {
+  background-color: rgb(212, 212, 212);
+}
+.tr {
+  text-align: center;
+  color: rgb(143, 143, 143);
+  height: 30px;
+  text-transform: capitalize;
+}
+th:nth-of-type(2) {
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+th {
+  height: 30px;
+}
+td:nth-of-type(2) {
+  border-left: solid rgb(201, 201, 201) 1px;
+  border-right: solid rgb(201, 201, 201) 1px;
+}
