@@ -8,7 +8,7 @@ function random_bg_color() {
   const bgColor = 'rgb(' + x + ',' + y + ',' + z + ')';
   return bgColor;
 }
-console.log(random_bg_color());
+
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
     <h2 className={styles.title}>{title}</h2>

@@ -7,8 +7,7 @@ import friends from './friendList/friends.json';
 import FriendList from './friendList/FriendList';
 import TransactionHistory from './transactions/TransactionHistory';
 import transactions from './transactions/transactions';
-// import Counter from './Counter/Counter';
-console.log(transactions);
+
 export default function App() {
   return (
     <div>
